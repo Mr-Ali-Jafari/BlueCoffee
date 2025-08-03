@@ -3,3 +3,11 @@
 body{
     background-color: #FFF8F5;
 }
+
+@font-face {
+    font-family: 'IranSans';
+    src: url('./assets/font.ttf');
+}
+*{
+    font-family: 'IranSans';
+}
