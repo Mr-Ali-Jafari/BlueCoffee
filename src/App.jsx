@@ -11,21 +11,19 @@ function App() {
 
   return (
     <section className='  bg-gradient-to-r from-yellow-300 via-amber-200 to-yellow-100 overflow-hidden'>
-        <div className="w-[90%] mx-auto">
-          <Header />
-          <Navbar />
-
-          <Services />
-          <Marquee />
-          <br />
-          <Products />
-          <br />
-          <Category />
-
-          <br />
-          <Blogs />
-          <Footer />
-        </div>
+      <div className="w-[90%] mx-auto">
+        <Header />
+        <Navbar />
+        <Services />
+        <Marquee />
+        <br />
+        <Products />
+        <br />
+        <Category />
+        <Blogs />
+        <br />
+        <Footer />
+      </div>
     </section>
   )
 }
