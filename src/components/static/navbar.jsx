@@ -1,5 +1,4 @@
 import { useState } from 'react';
-import { TiSocialInstagram } from "react-icons/ti";
 import { HiMenu, HiX } from "react-icons/hi";
 import '../../styles/navbar.css';
 
@@ -17,14 +16,7 @@ function Navbar() {
             {isOpen ? <HiX /> : <HiMenu />}
           </button>
 
-          <div className="InstaGram">
-            <button className="flex justify-center items-center gap-3 bg-yellow-800 px-4 py-2 rounded-full hover:bg-yellow-700 transition duration-300 cursor-pointer shadow-inner text-yellow-50 font-semibold text-sm">
-              <span className="li-icon text-2xl text-pink-400">
-                <TiSocialInstagram />
-              </span>
-              <span className="hidden sm:inline">@BlueCafe</span>
-            </button>
-          </div>
+
         </div>
 
         {/* Navigation Items */}

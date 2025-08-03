@@ -17,8 +17,12 @@ function App() {
 
           <Services />
           <Marquee />
-          <Category />
+          <br />
           <Products />
+          <br />
+          <Category />
+
+          <br />
           <Blogs />
           <Footer />
         </div>
