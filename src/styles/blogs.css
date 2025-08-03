@@ -1,0 +1,24 @@
+/* blogs.css */
+.li-blogs {
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.li-blogs:hover {
+    transform: scale(1.05);
+}
+.detail-btn{
+    list-style: none;
+    max-width: 300px;
+    padding: 10px;
+    margin: auto;
+    margin-top: 60px;
+    border-radius: 10px;
+    text-align: center;
+    transition: 1s;
+
+}
+.detail-btn:hover{
+    transition: 1s;
+    background-color: var(--color-orange-400);
+}

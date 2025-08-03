@@ -1,0 +1,16 @@
+.main-footer {
+  font-family: 'Vazirmatn', sans-serif;
+}
+
+.main-footer .Head h1 {
+  color: #fbbf24;
+}
+
+.main-footer .li-detail p {
+  color: #e5e7eb;
+  transition: color 0.3s ease;
+}
+
+.main-footer .li-detail p:hover {
+  color: #facc15;
+}

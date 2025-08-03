@@ -1,0 +1,44 @@
+.main-products {
+  background-image: url('../../assets/images/coffee-bg.jpg');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  z-index: 1;
+  border-radius: 1.5rem; /* افزوده شده */
+  overflow: hidden; /* برای گرد شدن بک‌گراند و جلوگیری از بیرون زدن محتوا */
+}
+
+.main-products::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(255, 255, 255, 0.9); /* optional white overlay */
+  z-index: -1;
+  border-radius: 1.5rem; /* هماهنگ با .main-products */
+}
+
+.li-products {
+  width: 250px;
+  background: linear-gradient(135deg, #fff9f0, #fff);
+  border: 1px solid #e0c097;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.08);
+  transition: all 0.3s ease-in-out;
+  border-radius: 1rem; /* افزوده شده */
+  overflow: hidden;
+}
+
+
+.prices {
+  margin-top: 1rem;
+  font-size: 0.9rem;
+  color: #5e4a3c;
+}
+
+.price-off {
+  color: #a78b71;
+}
+
+.price {
+  color: #3b2f2f;
+  font-weight: bold;
+}

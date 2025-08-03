@@ -1,0 +1,9 @@
+.li-category {
+  list-style: none;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+}
+
+.li-category:hover {
+  box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+}
