@@ -5,7 +5,7 @@ function Navbar() {
   return (
     <section className="bg-yellow-900 header shadow-md">
       <div dir="rtl">
-        <ul className="nav-items-ul flex items-center justify-between gap-6 px-6 py-3">
+        <ul className="nav-items-ul flex items-center justify-between gap-6 px-6 py-3 flex-wrap">
           <li className="li-refrence-links flex items-center gap-6 text-yellow-100 font-semibold">
             <span className="hover:text-yellow-300 transition-colors cursor-pointer">خانه</span>
             <span className="hover:text-yellow-300 transition-colors cursor-pointer">محصولات</span>
