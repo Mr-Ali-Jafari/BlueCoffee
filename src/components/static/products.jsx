@@ -129,9 +129,7 @@ function Products() {
         }, 2000);
     };
 
-    const formatPrice = (price) => {
-        return new Intl.NumberFormat('fa-IR').format(price);
-    };
+
 
     return (
         <section className="rounded-2xl py-16 px-4 bg-gradient-to-br from-amber-50 via-orange-50 to-yellow-50 relative overflow-hidden">
@@ -234,10 +232,10 @@ function Products() {
 
                                             <div className="mb-6">
                                                 <p className="text-sm text-gray-500 line-through mb-1">
-                                                    {formatPrice(product.originalPrice)} تومان
+                                                    {product.originalPrice} تومان
                                                 </p>
                                                 <p className="text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-amber-600 to-orange-600">
-                                                    {formatPrice(product.discountPrice)} تومان
+                                                    {product.discountPrice} تومان
                                                 </p>
                                             </div>
 
